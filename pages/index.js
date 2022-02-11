@@ -12,7 +12,7 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Framer</title>
+                <title>Bianca's Portfolio</title>
                 <meta name="description" content="Modules" />
                 <link rel="icon" href="/favicon.png" />
             </Head>
@@ -25,10 +25,13 @@ export default function Home() {
                 <div style={{ display: "flex", flexDirection: "column" }}>
                     <Row>
                         <TextSection variant="With Image" title="Framer Documentation" image="https://i.gyazo.com/518929836850fa2ca0a6fc4a2088128c.png" buttonLabel="View Site"
-                            tap={() => window.open("https://cultural-backgrounds-977455.framer.app/", '_blank')}
+                            tap={() => window.open("https://cultural-backgrounds-977455.framer.app/", '_blank')} style={{ marginBottom: "10px" }}
                             text="This is a Framer Sites documentation site for the projects I'll do over the semester; it is based on an official Framer template." 
                         />
-                        <TextSection variant="With Image" title="Project #2"/>
+                        <TextSection variant="With Image" title="Notion Portfolio/Journal" image="https://i.gyazo.com/c5dcb4a6be4c3e1d12e6715e4e5a53fa.jpg"
+                            tap={() => window.open("https://www.notion.so/bakhtiar/Week-2-393e08e6fa344e208c2674cd4f879dfd", '_blank')} style={{ marginBottom: "10px" }}
+                            text="A Notion portfolio I am using to chronicle my journey and learnings throughout the class. Here you can find musings and notes." 
+                        />
                         <TextSection variant="With Image" title="Project #3"/>
                         <TextSection variant="With Image" title="Project #4"/>
                         <TextSection variant="With Image" title="Project #5"/>
