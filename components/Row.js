@@ -4,6 +4,10 @@ export function Row(props) {
         <div
             style={{
                 display: "flex",
+                paddingTop: "20px",
+                paddingBottom: "20px",
+                flexWrap: "wrap",
+                justifyContent: "space-between"
             }}
         >
             { children }
